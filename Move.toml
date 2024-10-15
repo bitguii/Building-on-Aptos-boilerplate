@@ -3,8 +3,8 @@ name = 'calculator_l05'
 version = '1.0.0'
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
+AptosFramework = { local = "/Users/zhangwei/Documents/GitHub/aptos-core-main/aptos-move/framework/aptos-framework"}
 
 [addresses]
-metaschool = "<Enter-your-wallet-address-here>"
+metaschool = "0xa767004afbb9be8126297943626ee35355e630ec407715e1322572a625f0d1b5"
 std = "0x1"
